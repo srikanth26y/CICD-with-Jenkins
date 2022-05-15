@@ -2,9 +2,9 @@ pipeline {
 	
 	environment {
 		
-		registry = ""
+		registry = "srikanth26y/webapp"
 		
-		registryCredential = ''
+		registryCredential = 'docker-creds'
 		
 		dockerImages = ''
 
@@ -18,7 +18,7 @@ pipeline {
 
 			steps{
 			
-			git ''
+			git 'https://github.com/srikanth26y/nginx-demo.git'
 
 			}
 		}

@@ -18,7 +18,7 @@ pipeline {
 
 			steps{
 			
-			git 'https://github.com/srikanth26y/nginx-demo.git'
+				git  'https://github.com/srikanth26y/nginx-demo.git'
 
 			}
 		}

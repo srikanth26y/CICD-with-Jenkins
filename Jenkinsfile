@@ -87,7 +87,7 @@ pipeline {
 				script {
 
 		     
-					sh "docker run -d -p 8000:8000 ${dockerImage.imageName()}"
+					sh "docker run -d -p 8000:80 ${dockerImage.imageName()}"
        
 				}
 
@@ -112,6 +112,6 @@ pipeline {
 // 		}
 
 
-	}
 	
-}
+	
+

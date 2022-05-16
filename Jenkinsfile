@@ -2,7 +2,7 @@ pipeline {
 	
 	environment {
 		
-		registry = "srikanth26y/webapp"
+		registry = "srikanth26y/nginx"
 		
 		registryCredential = 'docker-creds'
 		

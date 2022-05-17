@@ -2,7 +2,7 @@ pipeline {
 	
 	environment {
 		
-		registry = "srikanth26y/nginx"
+		registry = "srikanth26y/nginx-demo-project"
 		
 		registryCredential = 'docker-creds'
 		
@@ -18,7 +18,7 @@ pipeline {
 
 			steps{
 			
-				git  'https://github.com/srikanth26y/nginx-demo.git'
+				git  'https://github.com/srikanth26y/nginx-demo-project.git'
 
 			}
 		}
@@ -101,17 +101,6 @@ pipeline {
 	
 }
     
-// 		stage('Remove Unused docker image') {
 
-// 			steps{
-       
-// 				sh "docker rmi $registry:$BUILD_NUMBER"
-     
-// 			}
-   
-// 		}
-
-
-	
 	
 

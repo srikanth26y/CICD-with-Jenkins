@@ -4,7 +4,7 @@
 please follow the steps:-
 #install Docker in VM
 #Install Jenkins in VM:-
-#Run the following Commands:
+#For installing jenkins in VM Run the following Commands:
 1) sudo apt-get update -y
 2) wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 3) sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ >

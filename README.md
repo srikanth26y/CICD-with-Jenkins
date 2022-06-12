@@ -2,9 +2,9 @@
 #the demo project is succeded, here i am successfully build the workflow of CI/CD using jenkins and docker.
 # please go and check the code and it runs perfectly fine.
 please follow the steps:-
--install Docker in VM
--Install Jenkins in VM:-
- Run the following Commands:
+#install Docker in VM
+#Install Jenkins in VM:-
+#Run the following Commands:
 1) sudo apt-get update -y
 2) wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 3) sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ >
